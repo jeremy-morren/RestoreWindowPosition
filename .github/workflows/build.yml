@@ -315,7 +315,7 @@ jobs:
       PACKAGE_ID: RestoreWindowPosition
     steps:
       - name: Download the package
-        uses: actions/download-artifact@v7
+        uses: actions/download-artifact@v8
         with:
           name: package
           path: package
